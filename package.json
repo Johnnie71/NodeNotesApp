@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Johnnie71/NodeNotesApp#readme",
   "dependencies": {
+    "chalk": "^4.1.2",
     "validator": "^13.6.0"
   }
 }
