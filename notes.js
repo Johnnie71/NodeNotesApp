@@ -3,6 +3,10 @@ function getNotes() {
 }
 
 const AddNote = (title, body) => {
+    const notes = LoadNotes()
+}
+
+const LoadNotes = () => {
 
 }
 
