@@ -1,3 +1,5 @@
 const message = require('./notes');
 
-console.log(message)
+const mes = message();
+
+console.log(mes)

@@ -1,5 +1,5 @@
 function getNotes() {
-    console.log('Your notes...')
+    return 'Your notes...'
 }
 
 
