@@ -1,5 +1,5 @@
-const GetNotes = () =>{
-    return "Your notes..."
+const GetNotes = () => {
+    console.log('Your notes...')
 };
 
 
