@@ -1,5 +1,5 @@
 const sum = require('./utils');
 
-const name = 'Andrew'
 
-console.log(name)
+
+console.log(sum(2,3))
