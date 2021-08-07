@@ -3,4 +3,4 @@ const message = require('./notes');
 
 const mes = message();
 
-console.log(validator.isEmail('example.com'));
+console.log(validator.isURL('https://google.com'));
