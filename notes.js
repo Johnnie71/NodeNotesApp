@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-function getNotes() {
+const GetNotes = () => {
     return 'Your notes...'
 }
 
@@ -32,6 +32,6 @@ const LoadNotes = () => {
 }
 
 module.exports = {
-    getNotes: getNotes,
+    getNotes: GetNotes,
     addNote: AddNote
 };
