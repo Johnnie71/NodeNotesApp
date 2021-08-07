@@ -3,4 +3,4 @@ const message = require('./notes');
 
 const mes = message();
 
-console.log(chalk.bold.magenta('Success!'));
+console.log(chalk.inverse.magenta('Success!'));
