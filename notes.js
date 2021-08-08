@@ -23,7 +23,7 @@ const AddNote = (title, body) => {
     SaveNotes(notes)
 }
 
-const RemoveNotes = () => {
+const RemoveNotes = (title) => {
     const notes = LoadNotes();
 
 }
