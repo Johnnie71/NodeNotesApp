@@ -19,9 +19,7 @@ const AddNote = (title, body) => {
     } else {
         console.log("No, title taken!")
     }
-
     
-
     SaveNotes(notes)
 }
 
