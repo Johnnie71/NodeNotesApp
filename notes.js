@@ -23,6 +23,11 @@ const AddNote = (title, body) => {
     SaveNotes(notes)
 }
 
+const RemoveNotes = () => {
+    const notes = LoadNotes();
+
+}
+
 const SaveNotes = (notes) => {
     const dataJSON = JSON.stringify(notes)
     fs.writeFileSync('notes.json', dataJSON)
