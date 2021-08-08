@@ -46,5 +46,6 @@ const LoadNotes = () => {
 
 module.exports = {
     getNotes: GetNotes,
-    addNote: AddNote
+    addNote: AddNote,
+    removeNotes: RemoveNotes
 };
