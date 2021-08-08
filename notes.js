@@ -16,6 +16,8 @@ const AddNote = (title, body) => {
             title: title,
             body: body
         })
+    } else {
+        console.log("No, title taken!")
     }
 
     
