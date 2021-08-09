@@ -43,7 +43,9 @@ const ListNotes = () => {
 
 }
 
-const ReadNotes = () => {
+const ReadNote = () => {
+    const notes = LoadNotes();
+
 
 }
 
@@ -68,5 +70,5 @@ module.exports = {
     addNote: AddNote,
     removeNotes: RemoveNotes,
     listNotes: ListNotes,
-    readNotes: ReadNotes
+    readNote: ReadNote
 };
