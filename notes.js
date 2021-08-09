@@ -35,6 +35,9 @@ const RemoveNotes = (title) => {
 
     SaveNotes(newList)
 }
+const ListNotes = () => {
+    
+}
 
 const SaveNotes = (notes) => {
     const dataJSON = JSON.stringify(notes)
