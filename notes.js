@@ -7,7 +7,6 @@ const GetNotes = () => {
 
 const AddNote = (title, body) => {
     const notes = LoadNotes()
-
     const duplicateNotes = notes.filter(note => note.title === title)
 
     if(duplicateNotes.length === 0){
@@ -36,7 +35,13 @@ const RemoveNotes = (title) => {
     SaveNotes(newList)
 }
 const ListNotes = () => {
-    
+    console.log(chalk.inverse('Your notes!'));
+    const notes = LoadNotes();
+
+    for(const note of notes){
+        console.log(chalk.blue.inverse(note.title))
+    }
+
 }
 
 const SaveNotes = (notes) => {
