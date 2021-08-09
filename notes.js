@@ -36,7 +36,7 @@ const RemoveNotes = (title) => {
     SaveNotes(newList)
 }
 const ListNotes = () => {
-
+    
 }
 
 const SaveNotes = (notes) => {
