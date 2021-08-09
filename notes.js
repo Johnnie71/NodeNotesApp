@@ -24,9 +24,12 @@ const AddNote = (title, body) => {
 }
 
 const RemoveNotes = (title) => {
-    console.log("This is the title: " + title)
-    // const notes = LoadNotes();
+    // console.log(`This is the title: ${title}`)
+    const notes = LoadNotes();
 
+    const newList = notes.filter(note => note.title !== title)
+
+    SaveNotes(newList)
 }
 
 const SaveNotes = (notes) => {
