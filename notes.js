@@ -32,7 +32,7 @@ const RemoveNotes = (title) => {
     if(notes.length > newList){
         console.log(chalk.green.inverse('Removed!'))
     } else {
-        console.log(chalk.red.inverse('No title note found!'))
+        console.log(chalk.red.inverse('No note found!'))
     }
 
     SaveNotes(newList)
