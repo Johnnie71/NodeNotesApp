@@ -7,7 +7,6 @@ const GetNotes = () => {
 
 const AddNote = (title, body) => {
     const notes = LoadNotes()
-    const duplicateNotes = notes.filter(note => note.title === title);
     const duplicateNote = notes.find(note => note.title === title)
 
     if(!duplicateNote){
