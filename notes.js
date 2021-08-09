@@ -14,11 +14,10 @@ const AddNote = (title, body) => {
             title: title,
             body: body
         })
+        SaveNotes(notes)
     } else {
         console.log("No. Title is taken!")
     }
-
-    SaveNotes(notes)
 }
 
 const RemoveNotes = (title) => {
