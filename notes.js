@@ -36,7 +36,7 @@ const RemoveNotes = (title) => {
     SaveNotes(newList)
 }
 const ListNotes = () => {
-    
+
 }
 
 const SaveNotes = (notes) => {
@@ -58,5 +58,6 @@ const LoadNotes = () => {
 module.exports = {
     getNotes: GetNotes,
     addNote: AddNote,
-    removeNotes: RemoveNotes
+    removeNotes: RemoveNotes,
+    listNotes: ListNotes
 };
